@@ -7,9 +7,10 @@ document.getElementById('btn-login').addEventListener('click',(e)=>{
 
    if(phoneNumber === '3' && pinNumber === '123'){
      
+    window.location.href = 'home.html';
    }
    else{
-    alert('worng number or Pin')
+    alert('wrong number or Pin')
    }
 
     console.log(phoneNumber ,pinNumber)
